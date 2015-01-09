@@ -7,28 +7,28 @@ these steps:
 
 1. Clone this repository
 
-    $ git clone https://github.com/alexlincoln/icloud-find-my-iphone-app.git
+        $ git clone https://github.com/alexlincoln/icloud-find-my-iphone-app.git
 
 2. Clone the `icloud-session` repository
 
-    $ git clone https://github.com/alexlincoln/icloud-session.git
+        $ git clone https://github.com/alexlincoln/icloud-session.git
 
 2. Clone the `icloud-http-client` repository
 
-    $ git clone https://github.com/alexlincoln/icloud-http-client.git
+        $ git clone https://github.com/alexlincoln/icloud-http-client.git
 
 3. Install the `icloud-http-client` module on both `icloud-session` and
 `icloud-find-my-iphone-app`
 
-    $ npm install /path/to/icloud-http-client
+        $ npm install /path/to/icloud-http-client
 
 4. Install the `icloud-session` module
 
-    $ npm install /path/to/icloud-session
+        $ npm install /path/to/icloud-session
 
 ## Example
 
-```javascipt
+```javascript
 'use strict';
 
 var icloud = require('icloud-session'),
